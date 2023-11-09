@@ -111,7 +111,7 @@ ul li{
     text-align: center;
     /* align-items: center; */
     /* opacity: ; */
-    background-color: rgb(187, 190, 187);
+    background-color: #ebebeb;
     height: 100px;
     width: 100px;
     border-radius: 10px;
@@ -222,7 +222,7 @@ ul li{
     margin-left: 78%;
     height: 200vh;
     width: 20%;
-
+    color: #2f4f4f;
 }
 .top-sec{
     display: flex;
@@ -274,6 +274,90 @@ ul li{
     
     height: 100px;
     width: 100px;
+}
+.all-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 300px;
+    width: 280px;
+    margin: 20px;
+    background-color:#f9f7f7;
+}
+.top-content{
+    position: relative;
+    top: 10px;
+    align-items: center;
+    text-align: center;
+    color: #2f4f4f;
+}
+.bottom-content{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 30px;
+}
+.bottom-content img{
+   width: 150px;
+   height: 180px;
+   position: relative;
+}
+.shop{
+ color: #2f4f4f;
+ position: relative;
+ left: 5px;
+
+}
+.shop p{
+    position: relative;
+    top: 15px;
+    color: #9f9d9d;
+    font-size: 10px;
+}
+.shop h4{
+    color: #2f4f4f;
+    position: relative;
+    top: 20px;
+}
+.shop .con i{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    text-align: center;
+    background: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+.start{
+    background: #2f4f4f;
+    color: #fff;
+    width: 340px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.start button{
+    border: 2px solid #9f9d9d;
+    height: 30px;
+    width: 80px;
+    position: relative;
+    font-size: 10px;
+    left: 10px;
+    top: 20px;
+    border-radius: 20px;
+    border-bottom: -200px solid;
+}
+.start p{
+    position: relative;
+    top: 20px;
 }
 
 
